@@ -13,7 +13,7 @@ USERNAME = ""
 PASSWORD = getpass.getpass("Enter your Windchill password: ")
 
 # Part numbers to retrieve
-part_numbers = ["D8000743810.SLDDRW"]
+part_numbers = ["D########.SLDDRW"]
 
 def get_latest_document(part_number):
     # Search for the document by part number
