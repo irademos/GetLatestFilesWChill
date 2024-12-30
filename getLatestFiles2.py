@@ -9,7 +9,7 @@ BASE_URL = "https://plm.tkelevator.com/Windchill/servlet/odata/PDM"
 
 # Prompt user for Windchill credentials
 # USERNAME = input("Enter your Windchill username: ")
-USERNAME = "30039399"
+USERNAME = ""
 PASSWORD = getpass.getpass("Enter your Windchill password: ")
 
 # Part numbers to retrieve
